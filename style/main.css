@@ -1,0 +1,164 @@
+*{
+    margin:0; 
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+.header{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+}
+.header-titles a{
+    font-size: 16px;
+    margin: 1em;
+}
+.hamburger-menu{
+    display: none;
+}
+.logo{
+    margin-right: 2em;
+}
+.dish{
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.title{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+.hakkimizda{
+    text-align: center;
+    background-color: #F7F7F7;
+}  
+.hakkimizda p{
+    margin-bottom: 1em;
+}
+.images{
+    position: relative ;
+   
+}
+.zort{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.basvuru{
+    margin: 4em;
+    border: 2px solid #B5B5B5;
+    border-radius: 3px;
+    padding: 4em 3em;
+    z-index: 100;
+    background-color: white;
+}
+.info label,
+.info input{
+    display: block;
+}
+.info label{
+    font-size: 13px;
+    margin-bottom: 0.25em;
+}
+.info input{
+    margin-bottom: 0.5em;
+    width: 85%;
+    padding: 0.60em;
+    border: 1.5px solid #B5B5B5;
+    border-radius: 5px;
+}
+.gonder{
+    font-size: 13px;
+    color: white;
+    background-color: #9AD4DA;
+    border: none;
+    border-radius: 6px;
+    padding: 1em 2.5em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+}
+.bilgi{
+    font-size: 9px;
+}
+.basvuru-container{
+    background-image: url("../img/mona.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ulasim-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 80px;
+    
+}
+.message{
+    height: 200px;
+    text-align: start;  
+    margin-bottom: 1em;
+    border: 1px solid #B7B7B7;
+    padding: 1em;
+}
+.form-group {
+    flex:1;
+}
+.form-group input, .form-group textarea {
+    width:100%;
+    border: 1px solid #B7B7B7;
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    resize:none;
+}
+.mr-4 {
+    margin-right:1rem;
+}
+.grid-name-mail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulasim-adres p{
+    margin-bottom: 1em;
+}
+.sosyal-media a{
+    display: block;
+    color: black;
+}
+.hr{
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+.footer-text{
+    text-align: center;
+    font-size: 16px;
+} 
+footer{
+    padding: 2em;
+    background-color: #F3F2F0;
+    margin-top: -6px;
+}
+.overflow-img{
+    max-width: 100%;
+    height: auto;
+}
+.open-close{
+    color: #606060;
+    display: block;
+}

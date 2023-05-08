@@ -1,0 +1,65 @@
+@media (max-width: 600px){
+    
+    .header-titles a{
+        display: none;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .header{
+        justify-content: space-between;
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+    .hakkimizda{
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .basvuru{
+        padding: 0 2em;
+        margin: 0.25em ;
+        border: none;
+    }
+    .basvuru-container{
+        background-image: none;
+    }
+    .info input{
+        margin-bottom: 1em;
+    }
+    .ulasim-grid{
+        display: flex;
+        grid-template-columns: none;
+        flex-direction: column;
+        gap: none;
+    }
+    .grid-name-mail{
+        display: block;
+    }
+    .zort{
+        width: 150px;
+    }
+    .basvuru{
+        margin-top: 2em;
+        margin-right: 3em;
+        margin-left: 1em;
+    }
+    .form-group textarea{
+        padding: 0.25em;
+    }
+    .sosyal-media{
+        margin-bottom: 3em;
+    }
+    .hr{
+        display: none;
+    }
+    .ulasim{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    
+}
